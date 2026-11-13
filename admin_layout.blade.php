@@ -8,7 +8,6 @@
 </head>
 <body class="bg-gray-100 text-gray-800 antialiased min-h-screen flex flex-col">
 
-    <!-- Top Navigation -->
     <nav class="bg-white border-b border-gray-200">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16 items-center">
@@ -31,13 +30,10 @@
         </div>
     </nav>
 
-    <!-- Main Content -->
     <main class="flex-1 max-w-6xl w-full mx-auto py-8 px-4 sm:px-6 lg:px-8">
-        <!-- Page Slot -->
         {{ $slot }}
     </main>
 
-    <!-- Footer -->
     <footer class="bg-white border-t border-gray-200 mt-auto">
         <div class="max-w-6xl mx-auto py-4 px-4 sm:px-6 lg:px-8 text-xs text-gray-500 text-center">
             &copy; {{ date('Y') }} TechVold Admin. All rights reserved.
