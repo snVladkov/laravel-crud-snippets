@@ -1,4 +1,3 @@
-<!-- Page Header -->
 <div class="flex items-center justify-between mb-6">
     <h1 class="text-2xl font-bold text-gray-900">Products List</h1>
     <a href="#"
@@ -7,7 +6,6 @@
     </a>
 </div>
 
-<!-- Table Card -->
 <div class="bg-white shadow-sm rounded-lg border border-gray-200 overflow-x-auto">
     <table class="min-w-full divide-y divide-gray-200">
         <thead class="bg-gray-50">
@@ -30,7 +28,7 @@
             </tr>
         </thead>
         <tbody class="bg-white divide-y divide-gray-200">
-            <!-- Sample Row 1 -->
+            <!-- Sample Row -->
             <tr class="hover:bg-gray-50">
                 <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                     Wireless Mechanical Keyboard
